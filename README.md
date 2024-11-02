@@ -15,4 +15,6 @@ committed: изменения сохранены в коммите и включ
 ```mermaid
 untracked -- "git add" --> staged;
 staged -- "git commit" --> committed;
+committed -- "изменения" --> modified;
+modified -- "git add" --> staged;
 ```
