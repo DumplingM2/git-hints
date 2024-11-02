@@ -13,6 +13,7 @@ staged: файл добавлен в индекс с помощью git add и �
 committed: изменения сохранены в коммите и включены в историю.
 
 ```mermaid
+graph LR;
 untracked -- "git add" --> staged;
 staged -- "git commit" --> committed;
 committed -- "изменения" --> modified;
